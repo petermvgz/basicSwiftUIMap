@@ -13,7 +13,7 @@ struct ContentView: View {
     @StateObject var appData = ApplicationData()
     
     //create a map region as a state variable
-    @State private var mapRegion = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 37.720764, longitude: -122.476570), span: MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1))
+    @State private var mapRegion = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 37.720770, longitude: -122.478570), span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
     
     var body: some View {
         ZStack {
