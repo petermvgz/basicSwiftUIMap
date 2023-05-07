@@ -15,7 +15,7 @@ class ApplicationData: ObservableObject {
     
     init() {
         locations = [
-            Location(name: "", latitude: 37.7786, longitude: -122.3893, imageName: "")
+            Location(name: "", latitude: 37.7210705, longitude: -122.4760580, imageName: "")
         ]
     }
     
